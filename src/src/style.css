@@ -1,0 +1,28 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f7f5;
+  color: #18352b;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, textarea, select, button {
+  font: inherit;
+}
+
+button:focus, input:focus, textarea:focus, select:focus {
+  outline: 2px solid #0b8f65;
+  outline-offset: 2px;
+}
